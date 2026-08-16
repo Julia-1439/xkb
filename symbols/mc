@@ -1,0 +1,13 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    name[Group1] = "Minecraft";
+    key <AC03> { [ p, D ] }; // d > types o, triggers d
+
+
+
+
+};
+    // key <AE05> { [ U0025, 0 ] }; // 5 > types 5, triggers 0
+    // key <AB01> { [ n, N ] }; // z
+    // key <AC01> { [ a, A ] }; // a
+    // key <AC03> { [ o, O ] }; // d
