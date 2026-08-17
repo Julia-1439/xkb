@@ -26,7 +26,7 @@ xkb_symbols "basic" {
     key <AD06> { [ y, Y ] }; // y
     key <AD07> { [ u, U ] }; // u
     key <AD08> { [ i, I ] }; // i
-    key <AD09> { [ o, O ] }; // o
+    key <AD09> { [ d, O ] }; // o
     key <AD10> { [ p, P ] }; // p
     key <AD11> { [ bracketleft, braceleft ] }; // bracketleft [
     key <AD12> { [ bracketright, braceright ] }; // bracketright ]
@@ -35,7 +35,7 @@ xkb_symbols "basic" {
     // MIDDLE LETTER ROW
     key <AC01> { [ a, A ] }; // a
     key <AC02> { [ s, S ] }; // s
-    key <AC03> { [ d, D ] }; // d
+    key <AC03> { [ o, D ] }; // d
     key <AC04> { [ f, F ] }; // f
     key <AC05> { [ g, G ] }; // g
     key <AC06> { [ h, H ] }; // h
