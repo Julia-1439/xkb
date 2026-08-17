@@ -1,13 +1,62 @@
 default partial alphanumeric_keys
 xkb_symbols "basic" {
     name[Group1] = "Minecraft";
-    key <AC03> { [ p, D ] }; // d > types o, triggers d
 
+    // NUMBERS ROW
+    key <TLDE> { [ grave, asciitilde ] };
+    key <AE01> { [ 1, exclam ] };
+    key <AE02> { [ 2, at ] };
+    key <AE03> { [ 3, numbersign ] };
+    key <AE04> { [ 4, dollar ] };
+    key <AE05> { [ 5, percent ] };
+    key <AE06> { [ 6, asciicircum ] };
+    key <AE07> { [ 7, ampersand ] };
+    key <AE08> { [ 8, asterisk ] };
+    key <AE09> { [ 9, parenleft ] };
+    key <AE10> { [ 0, parenright ] }; // 0
+    key <AE11> { [ minus, underscore ] }; // -
+    key <AE12> { [ equal, plus ] }; // =
 
+    // TOP LETTER ROW
+    key <AD01> { [ q, Q ] }; // q
+    key <AD02> { [ w, W ] }; // w
+    key <AD03> { [ e, E ] }; // e
+    key <AD04> { [ r, R ] }; // r
+    key <AD05> { [ t, T ] }; // t
+    key <AD06> { [ y, Y ] }; // y
+    key <AD07> { [ u, U ] }; // u
+    key <AD08> { [ i, I ] }; // i
+    key <AD09> { [ o, O ] }; // o
+    key <AD10> { [ p, P ] }; // p
+    key <AD11> { [ bracketleft, braceleft ] }; // bracketleft [
+    key <AD12> { [ bracketright, braceright ] }; // bracketright ]
+    key <BKSL> { [ backslash, bar ] }; // backslash \
 
+    // MIDDLE LETTER ROW
+    key <AC01> { [ a, A ] }; // a
+    key <AC02> { [ s, S ] }; // s
+    key <AC03> { [ d, D ] }; // d
+    key <AC04> { [ f, F ] }; // f
+    key <AC05> { [ g, G ] }; // g
+    key <AC06> { [ h, H ] }; // h
+    key <AC07> { [ j, J ] }; // j
+    key <AC08> { [ k, K ] }; // k
+    key <AC09> { [ l, L ] }; // l
+    key <AC10> { [ semicolon, colon ] }; // semicolon ;
+    key <AC11> { [ apostrophe, quotedbl ] }; // apostrophe '
 
+    // BOTTOM LETTER ROW
+    key <AB01> { [ z, Z ] }; // z
+    key <AB02> { [ x, X ] }; // x
+    key <AB03> { [ c, C ] }; // c
+    key <AB04> { [ v, V ] }; // v
+    key <AB05> { [ b, B ] }; // b
+    key <AB06> { [ n, N ] }; // n
+    key <AB07> { [ m, M ] }; // m
+    key <AB08> { [ comma, less ] }; // comma ,
+    key <AB09> { [ period, greater ] }; // period .
+    key <AB10> { [ slash, question ] }; // slash /
+
+    // SPACE
+    key <SPCE> { [ space ] };
 };
-    // key <AE05> { [ U0025, 0 ] }; // 5 > types 5, triggers 0
-    // key <AB01> { [ n, N ] }; // z
-    // key <AC01> { [ a, A ] }; // a
-    // key <AC03> { [ o, O ] }; // d
