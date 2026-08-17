@@ -23,7 +23,7 @@ xkb_symbols "basic" {
     key <AD03> { [ e, E ] }; // e
     key <AD04> { [ r, R ] }; // r
     key <AD05> { [ t, T ] }; // t
-    key <AD06> { [ y, Y ] }; // y
+    key <AD06> { [ a, A ] }; // y
     key <AD07> { [ u, U ] }; // u
     key <AD08> { [ i, I ] }; // i
     key <AD09> { [ d, O ] }; // o
@@ -33,7 +33,7 @@ xkb_symbols "basic" {
     key <BKSL> { [ backslash, bar ] }; // backslash \
 
     // MIDDLE LETTER ROW
-    key <AC01> { [ a, A ] }; // a
+    key <AC01> { [ y, Y ] }; // a
     key <AC02> { [ s, S ] }; // s
     key <AC03> { [ o, D ] }; // d
     key <AC04> { [ f, F ] }; // f
