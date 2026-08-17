@@ -8,12 +8,12 @@ xkb_symbols "basic" {
     key <AE02> { [ 2, at ] };
     key <AE03> { [ 3, numbersign ] };
     key <AE04> { [ 4, dollar ] };
-    key <AE05> { [ 5, percent ] };
+    key <AE05> { [ 0, parenright ] };
     key <AE06> { [ 6, asciicircum ] };
     key <AE07> { [ 7, ampersand ] };
     key <AE08> { [ 8, asterisk ] };
     key <AE09> { [ 9, parenleft ] };
-    key <AE10> { [ 0, parenright ] }; // 0
+    key <AE10> { [ 5, percent ] }; // 0
     key <AE11> { [ minus, underscore ] }; // -
     key <AE12> { [ equal, plus ] }; // =
 
