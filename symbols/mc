@@ -2,6 +2,8 @@ default partial alphanumeric_keys
 xkb_symbols "basic" {
     name[Group1] = "Minecraft";
 
+    // Key codes obtained from https://xkbedit.github.io/
+
     // NUMBERS ROW
     key <TLDE> { [ grave, asciitilde ] };
     key <AE01> { [ 1, exclam ] };
