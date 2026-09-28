@@ -9,7 +9,7 @@ xkb_symbols "basic" {
     key <AE01> { [ 1, exclam ] };
     key <AE02> { [ 2, at ] };
     key <AE03> { [ 3, numbersign ] };
-    key <AE04> { [ 4, dollar ] };
+    key <AE04> { [ k, dollar ] };
     key <AE05> { [ 0, parenright ] };
     key <AE06> { [ 6, asciicircum ] };
     key <AE07> { [ 7, ampersand ] };
@@ -27,8 +27,8 @@ xkb_symbols "basic" {
     key <AD05> { [ t, T ] }; // t
     key <AD06> { [ y, Y ] }; // y
     key <AD07> { [ u, U ] }; // u
-    key <AD08> { [ i, I ] }; // i
-    key <AD09> { [ d, O ] }; // o
+    key <AD08> { [ c, I ] }; // i
+    key <AD09> { [ f, O ] }; // o
     key <AD10> { [ p, P ] }; // p
     key <AD11> { [ bracketleft, braceleft ] }; // bracketleft [
     key <AD12> { [ bracketright, braceright ] }; // bracketright ]
@@ -38,11 +38,11 @@ xkb_symbols "basic" {
     key <AC01> { [ a, A ] }; // a
     key <AC02> { [ s, S ] }; // s
     key <AC03> { [ o, D ] }; // d
-    key <AC04> { [ f, F ] }; // f
-    key <AC05> { [ g, G ] }; // g
+    key <AC04> { [ d, F ] }; // f
+    key <AC05> { [ i, G ] }; // g
     key <AC06> { [ h, H ] }; // h
     key <AC07> { [ j, J ] }; // j
-    key <AC08> { [ k, K ] }; // k
+    key <AC08> { [ 4, K ] }; // k
     key <AC09> { [ l, L ] }; // l
     key <AC10> { [ semicolon, colon ] }; // semicolon ;
     key <AC11> { [ apostrophe, quotedbl ] }; // apostrophe '
@@ -50,10 +50,10 @@ xkb_symbols "basic" {
     // BOTTOM LETTER ROW
     key <AB01> { [ z, Z ] }; // z
     key <AB02> { [ x, X ] }; // x
-    key <AB03> { [ c, C ] }; // c
-    key <AB04> { [ v, V ] }; // v
+    key <AB03> { [ g, C ] }; // c
+    key <AB04> { [ n, V ] }; // v
     key <AB05> { [ b, B ] }; // b
-    key <AB06> { [ n, N ] }; // n
+    key <AB06> { [ v, N ] }; // n
     key <AB07> { [ m, M ] }; // m
     key <AB08> { [ comma, less ] }; // comma ,
     key <AB09> { [ period, greater ] }; // period .
