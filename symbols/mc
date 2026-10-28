@@ -6,9 +6,9 @@ xkb_symbols "basic" {
 
     // NUMBERS ROW
     key <TLDE> { [ grave, asciitilde ] };
-    key <AE01> { [ plus, exclam ] };
-    key <AE02> { [ 2, at ] };
-    key <AE03> { [ 8, numbersign ] };
+    key <AE01> { [ plus, G ] };
+    key <AE02> { [ 2, O ] };
+    key <AE03> { [ 8, T ] };
     key <AE04> { [ k, dollar ] };
     key <AE05> { [ 0, parenright ] };
     key <AE06> { [ 6, asciicircum ] };
@@ -24,7 +24,7 @@ xkb_symbols "basic" {
     key <AD02> { [ w, W ] }; // w
     key <AD03> { [ e, E ] }; // e
     key <AD04> { [ r, R ] }; // r
-    key <AD05> { [ t, T ] }; // t
+    key <AD05> { [ t, numbersign ] }; // t
     key <AD06> { [ y, Y ] }; // y
     key <AD07> { [ u, U ] }; // u
     key <AD08> { [ c, I ] }; // i
@@ -37,9 +37,9 @@ xkb_symbols "basic" {
     // MIDDLE LETTER ROW
     key <AC01> { [ a, A ] }; // a
     key <AC02> { [ s, S ] }; // s
-    key <AC03> { [ o, O ] }; // d
+    key <AC03> { [ o, at ] }; // d
     key <AC04> { [ d, D ] }; // f
-    key <AC05> { [ i, G ] }; // g
+    key <AC05> { [ i, exclam ] }; // g
     key <AC06> { [ h, H ] }; // h
     key <AC07> { [ j, J ] }; // j
     key <AC08> { [ 4, K ] }; // k
