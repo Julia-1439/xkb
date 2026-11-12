@@ -8,12 +8,12 @@ xkb_symbols "basic" {
     key <TLDE> { [ grave, asciitilde ] };
     key <AE01> { [ plus, G ] };
     key <AE02> { [ 2, O ] };
-    key <AE03> { [ 8, T ] };
-    key <AE04> { [ k, dollar ] };
+    key <AE03> { [ 3, numbersign ] };
+    key <AE04> { [ 4, dollar ] };
     key <AE05> { [ 0, parenright ] };
     key <AE06> { [ 6, asciicircum ] };
     key <AE07> { [ 7, ampersand ] };
-    key <AE08> { [ 3, asterisk ] };
+    key <AE08> { [ bracketleft, asterisk ] };
     key <AE09> { [ 9, parenleft ] };
     key <AE10> { [ 5, percent ] }; // 0
     key <AE11> { [ minus, underscore ] }; // -
@@ -24,14 +24,14 @@ xkb_symbols "basic" {
     key <AD02> { [ w, W ] }; // w
     key <AD03> { [ e, E ] }; // e
     key <AD04> { [ r, R ] }; // r
-    key <AD05> { [ t, numbersign ] }; // t
+    key <AD05> { [ t, braceleft ] }; // t
     key <AD06> { [ y, Y ] }; // y
     key <AD07> { [ u, U ] }; // u
     key <AD08> { [ c, I ] }; // i
     key <AD09> { [ f, F ] }; // o
     key <AD10> { [ p, P ] }; // p
-    key <AD11> { [ bracketleft, braceleft ] }; // bracketleft [
-    key <AD12> { [ bracketright, braceright ] }; // bracketright ]
+    key <AD11> { [ 8, T ] }; // bracketleft [
+    key <AD12> { [ k, braceright ] }; // bracketright ]
     key <BKSL> { [ backslash, bar ] }; // backslash \
 
     // MIDDLE LETTER ROW
@@ -42,7 +42,7 @@ xkb_symbols "basic" {
     key <AC05> { [ i, exclam ] }; // g
     key <AC06> { [ h, H ] }; // h
     key <AC07> { [ j, J ] }; // j
-    key <AC08> { [ 4, K ] }; // k
+    key <AC08> { [ bracketright, K ] }; // k
     key <AC09> { [ l, L ] }; // l
     key <AC10> { [ semicolon, colon ] }; // semicolon ;
     key <AC11> { [ apostrophe, quotedbl ] }; // apostrophe '
